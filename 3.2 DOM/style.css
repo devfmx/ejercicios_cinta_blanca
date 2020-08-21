@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://envato-shoebox-0.imgix.net/6c58/6a29-1d18-4796-bad5-9aa0946bc7c5/9D1A8893.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=391c3a1243afd67ff4c26e9e1dc6a2a2) ;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.padre{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton{
+    /* border: blue 1px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.my-card{
+    margin-top: 15px;
+    
+}
+.none{
+    display: none;
+}
+
+.imgPizza{
+    width: 200px;
+    border-radius: 8px;
+}

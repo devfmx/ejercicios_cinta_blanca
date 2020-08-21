@@ -1,0 +1,56 @@
+  
+body {
+    display: flex;
+    height: 1000px;
+    justify-content: space-around;
+    align-items: center;
+}
+.padre {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hijo {
+    width: 30%;
+    height: 30%;
+    border: 2px solid rgb(17, 14, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nieto{
+    width: 20%;
+    height: 20%;
+    border: 2px solid rgb(160, 7, 147);
+}
+
+.madre {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hija {
+    width: 30%;
+    height: 30%;
+    border: 2px solid rgb(223, 38, 14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .nieta{
+    width: 20%;
+    height: 20%;
+    border: 2px solid rgb(7, 194, 48);
+} */
